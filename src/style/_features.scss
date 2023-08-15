@@ -1,0 +1,40 @@
+.feature {
+  margin-bottom: 122px;
+
+  &__title {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1;
+    color: $pale-gray;
+    margin-bottom: 62px;
+  }
+
+  &__block {
+    display: flex;
+    gap: 187px;
+
+    &--container {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    &--number {
+      font-family: 'San Francisco Pro';
+      font-size: 200px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      color: $middle-gray;
+    }
+
+    &--text {
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.63;
+      color: $custom-black;
+    }
+  }
+}

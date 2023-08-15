@@ -1,0 +1,19 @@
+.project {
+
+   &__block {
+      display: flex;
+      gap: 30px;
+   }
+ 
+   &__title {
+background-image: url('../../assets/images/build1.jpeg');
+      &-text {
+            font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 1;
+color: $white;
+      }
+   }
+
+}
