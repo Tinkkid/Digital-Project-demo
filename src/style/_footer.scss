@@ -41,14 +41,6 @@
   }
 }
 
-@mixin logoColor($color) {
-  fill: $color;
-}
-
-.logo-footer {
-  @include logoColor($white);
-}
-
 .social-icon {
   display: flex;
   justify-content: center;
