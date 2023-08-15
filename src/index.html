@@ -123,18 +123,15 @@
         <div class="project__block">
           <div class="project__text">
             <div class="project__text--wrap">
-            <h4 class="project__text--item">Центр дозвілля</h4>
-            <button class="project__text--btn">
-              <span>детальніше</span>
-              <svg width="17" height="8">
-                <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
-              </svg>
-            </button>
-
+              <h4 class="project__text--item">Центр дозвілля</h4>
+              <button class="project__text--btn">
+                <span>детальніше</span>
+                <svg width="17" height="8">
+                  <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
             </div>
-
           </div>
-
           <img src="./assets/images/build2.jpeg" alt="building" width="570px" height="255px" />
         </div>
         <div class="project__block">
@@ -142,10 +139,159 @@
           <img src="./assets/images/build4.jpeg" alt="building" width="470px" height="255px" />
           <img src="./assets/images/build5.jpeg" alt="building" width="370px" height="255px" />
         </div>
+        <div class="project__btn-wrap">
+          <button class="project__btn-wrap--btn">
+            <span>усі проекти</span>
+            <svg width="17" height="8" fill="white">
+              <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
       </section>
 
       <!-- Contact form -->
+      <section class="container contact-form">
+        <h2 class="contact-form__title">Зв'язатися з нами</h2>
+        <div class="contact-form__main">
+          <form class="contact-form__form">
+            <label class="contact-form__label">
+              <input type="text" class="contact-form__input" placeholder="Ім'я" />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="./assets/icons/symbol-defs.svg#icon-user"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form__label">
+              <input type="text" class="contact-form__input" placeholder="Номер телефону" />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="./assets/icons/symbol-defs.svg#icon-tel"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form__label">
+              <input type="text" class="contact-form__input" placeholder="E-mail" />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="./assets/icons/symbol-defs.svg#icon-mail"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form__label">
+              <input
+                type="text"
+                class="contact-form__input"
+                placeholder="Товар/послуга, що цікавить"
+              />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="./assets/icons/symbol-defs.svg#icon-cart"></use>
+                </svg>
+              </span>
+            </label>
+            <textarea
+              name="message"
+              class="contact-form__message"
+              cols="30"
+              rows="10"
+              placeholder="Повідомлення"
+            ></textarea>
+          </form>
+          <img src="./assets/images/man.jpeg" alt="man with phone" width="750px" height="370px" />
+        </div>
+        <p class="contact-form__text">
+          Надсилаючи заявку, Ви погоджуєтесь з політикою конфіденційності
+        </p>
+        <div class="contact-form__btn-wrap">
+          <button class="contact-form__btn">
+            <span>Надіслати</span>
+            <svg width="17" height="8" fill="white">
+              <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo footer-logo">
+          <a href="" class="logo__link">
+            <svg width="66" height="52" class="logo-footer" fill="white">
+              <use href="./assets/icons/symbol-defs.svg#icon-logo"></use>
+            </svg>
+          </a>
+         </div>
+          <div class="footer__info">
+            <h4 class="footer__titles">Інформація</h4>
+            <ul class="footer__info--list">
+              <li class="footer__info--list-item footer__text" ><a href="#" >Головна</a></li>
+              <li class="footer__info--list-item footer__text" ><a href="#" >Галерея</a></li>
+              <li class="footer__info--list-item footer__text" ><a href="#" >Проекти</a></li>
+              <li class="footer__info--list-item footer__text"><a href="#" >Сертифікати</a></li>
+              <li class="footer__info--list-item footer__text"><a href="#" >Контакти</a></li>
+            </ul>
+          </div>
+          <div class="footer__contact">
+            <h4 class="footer__titles">Контакти</h4>
+            <ul class="footer__contact--list">
+              <li class="footer__text">
+                <a
+                  href="https://goo.gl/maps/Mb4DiVLQo2YrGgUX9"
+                  target="_blank"
+                  rel="noopener noreferrer" class="footer__contact--list-item"
+                  > <svg width="16" height="16" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-location"></use></svg
+                >00000, Україна, м.Київ. Хрещатик 1</a
+                >
+              </li>
+              <li class="footer__text">
+                <a href="tel:+380000000000" target="_blank" rel="noopener noreferrer" class="footer__contact--list-item"
+                  ><svg width="16" height="16" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-tel"></use></svg
+                >+38(000)000 00 00</a
+                >
+              </li>
+              <li class="footer__text">
+                <a href="mailto:mail@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__contact--list-item"
+                  ><svg width="16" height="16" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-mail"></use></svg
+                >mail@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <h4 class="footer__titles">Cоціальні мережі</h4>
+            <ul class="footer__social--list">
+              <li class="footer__social--list-item">
+                <a href="" class="social-icon"
+                  ><svg width="10" height="19" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="footer__social--list-item">
+                <a href="" class="social-icon"
+                  ><svg width="22" height="17" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="footer__social--list-item">
+                <a href="" class="social-icon"
+                  ><svg width="20" height="20" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+              <li class="footer__social--list-item">
+                <a href="" class="social-icon"
+                  ><svg width="14" height="19" class="logo-footer" fill="white">
+                    <use href="./assets/icons/symbol-defs.svg#icon-pininterest"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </footer>
   </body>
 </html>

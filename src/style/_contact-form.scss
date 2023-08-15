@@ -1,0 +1,99 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+
+  &__title {
+    color: $pale-gray;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 22px;
+  }
+
+  &__main {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 22px;
+  }
+
+  &__label {
+    position: relative;
+  }
+
+  &__input,
+  &__message {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    background-color: $contact-form-background;
+    width: 390px;
+    padding-left: 42px;
+    padding-top: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    transition: border-color $main-transition;
+  }
+
+  &__input:focus-within,
+  &__message:focus-within {
+    border-color: $hover-color;
+    outline: none;
+  }
+
+  &__input:focus-within + .contact-form__icon {
+    fill: $hover-color;
+  }
+
+  &__input {
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+  }
+
+  &__message {
+    resize: none;
+    max-height: 147px;
+  }
+
+  &__icon {
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 16px;
+    fill: $custom-black;
+    transition: fill $main-transition;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    color: $custom-black;
+    margin-bottom: 22px;
+  }
+
+  &__btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: $custom-black;
+    padding: 30px 65px;
+    color: $white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+  }
+}
