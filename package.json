@@ -1,8 +1,8 @@
 {
-  "name": "webpack-kit",
+  "name": "digital-project-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://Tinkkid.github.io/webpack-kit",
+  "homepage": "https://Tinkkid.github.io/digital-project-demo",
   "scripts": {
     "start": "webpack serve",
     "dev": "webpack",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tinkkid/webpack-kit"
+    "url": "git+https://github.com/Tinkkid/digital-project-demo"
   },
   "keywords": [],
   "author": "",
