@@ -44,4 +44,9 @@
    padding: 22px 18px;
    background-color: $arrow-background;
    color: $custom-black;
+   transition: background-color $main-transition;
+
+   &:hover, &:focus {
+    background-color: $hover-color-second;
+   }
 }

@@ -55,18 +55,23 @@
     width: 222px;
     color: $custom-black;
     font-size: 12px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 1;
-   letter-spacing: 2.4px;
-   text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    transition: background-color $main-transition;
+
+    &:hover,
+    &:focus {
+      background-color: $hover-color-second;
+    }
   }
 }
 
 .right {
-   position: absolute;
-   width: 270px;
-   height: 140px;
-   top: 295px;
-
+  position: absolute;
+  width: 270px;
+  height: 140px;
+  top: 295px;
 }

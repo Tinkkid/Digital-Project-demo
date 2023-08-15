@@ -1,11 +1,11 @@
 .footer {
   background-color: $custom-black;
-  padding: 58px 0;
   color: $white;
 
   &-container {
     display: flex;
     justify-content: space-between;
+    padding: 58px 0;
   }
 
   &__titles {
@@ -22,6 +22,12 @@
     font-weight: 500;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
+    transition: color $main-transition;
+
+    &:hover,
+    &:focus {
+      color: $hover-color;
+    }
   }
 
   &__info--list-item {
@@ -38,6 +44,33 @@
   &__social--list {
     display: flex;
     gap: 40px;
+  }
+
+  &__bottom {
+    border-top: 2px solid $pale-gray;
+
+    &-text {
+      display: flex;
+      justify-content: center;
+      padding: 24px 0;
+      gap: 15px;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 183.333% */
+      color: $pale-gray;
+
+      a {
+        color: $white;
+        display: flex;
+        gap: 5px;
+      }
+
+      a:hover,
+      a:focus {
+        color: $hover-color;
+      }
+    }
   }
 }
 

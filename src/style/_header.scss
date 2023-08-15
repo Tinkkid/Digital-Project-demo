@@ -28,10 +28,20 @@ html {
   &__link {
     color: $custom-black;
     font-size: 12px;
-
+    padding: 5px;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 2.4px;
     text-transform: uppercase;
+    position: relative;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: border-top $main-transition, border-bottom $main-transition;
+
+    &:hover,
+    &:focus {
+      border-top: 3px solid $hover-color;
+      border-bottom: 3px solid $hover-color;
+    }
   }
 }

@@ -95,5 +95,10 @@
     line-height: 1;
     letter-spacing: 2.4px;
     text-transform: uppercase;
+     transition: background-color $main-transition;
+
+   &:hover, &:focus {
+    background-color: $hover-color-second;
+   }
   }
 }
