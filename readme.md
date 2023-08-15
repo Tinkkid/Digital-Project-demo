@@ -14,4 +14,4 @@
 - Webpack
 - CSS3
 
-## Live page - [Digital Project](https://Tinkkid.github.io/digital-project-demo)
+## Live page - [Digital Project](https://tinkkid.github.io/Digital-Project-demo/)
