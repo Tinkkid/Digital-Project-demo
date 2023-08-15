@@ -1,60 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Digital project</title>
-</head>
-<body>
-   <header class="fixed-header">
-   <div class="container header__container">
-      <div class="logo header-logo">
-         <a href="" class="logo__link">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital project</title>
+  </head>
+  <body>
+    <header class="fixed-header">
+      <div class="container header__container">
+        <div class="logo header-logo">
+          <a href="" class="logo__link">
             <svg width="66" height="52">
-          <use href="./assets/icons/symbol-defs.svg#icon-logo"></use>
-        </svg>
-         </a>
+              <use href="./assets/icons/symbol-defs.svg#icon-logo"></use>
+            </svg>
+          </a>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li><a href="#" class="navigation__link">Головна</a></li>
+            <li><a href="#" class="navigation__link">Галерея</a></li>
+            <li><a href="#" class="navigation__link">Проекти</a></li>
+            <li><a href="#" class="navigation__link">Сертифікати</a></li>
+            <li><a href="#" class="navigation__link">Контакти</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-         <ul class="navigation">
-         <li><a href="#" class="navigation__link">Головна</a></li>
-         <li><a href="#" class="navigation__link">Галерея</a></li>
-         <li><a href="#" class="navigation__link">Проекти</a></li>
-         <li><a href="#" class="navigation__link">Сертифікати</a></li>
-         <li><a href="#" class="navigation__link">Контакти</a></li>
-         </ul>      
-      </nav>
-   </div>
-</header>
-<main>
-   <section class="container hero">
-   <div class="hero__container">
-      <h1 class="hero__title">
-      <span class="hero__title--first-word">Project</span>
-      <span class="hero__title--second-word">Home</span>
-      </h1>     
-      <div class="hero__btn">
-         <button class="btn" type="button">
-             <svg width="17" height="8">
-          <use href="./assets/icons/symbol-defs.svg#icon-arrow-left"></use>
-        </svg>
-         </button>
-         <button class="btn" type="button">
-             <svg width="17" height="8">
-          <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
-        </svg>
-         </button>
-      </div>
-   </div>
-   <div class="hero__img">
-      <img class="hero__img-item" src="./assets/images/hero-main.jpeg" alt="example" width="770px" height="829px">
-      <button class="view" type="button"></button>
-   </div>
-</section>
-</main>
-   <footer>
-   </footer>
-   
-</body>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="container hero">
+        <div class="hero__container">
+          <h1 class="hero__title">
+            <span class="hero__title--first-word">Project</span>
+            <span class="hero__title--second-word">Home</span>
+          </h1>
+          <div class="hero__btn">
+            <button class="btn" type="button">
+              <svg width="17" height="8">
+                <use href="./assets/icons/symbol-defs.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button class="btn" type="button">
+              <svg width="17" height="8">
+                <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img
+            class="hero__img-item"
+            src="./assets/images/hero-main.jpeg"
+            alt="example"
+            width="770px"
+            height="829px"
+          />
+          <button class="view" type="button"></button>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="container">
+        <div class="about">
+          <div class="about__image">
+            <div class="about__image--right">
+              <img src="./assets/images/img1.jpeg" width="270px" height="265px" alt="" />
+              <img
+                src="./assets/images/img2.jpeg"
+                width="270px"
+                height="140px"
+                alt=""
+                class="right"
+              />
+            </div>
+            <div class="about__image--left">
+              <img src="./assets/images/img3.jpeg" width="270px" height="345px" alt="" />
+            </div>
+          </div>
+          <div class="about__title">
+            <h2 class="about__title--main">Про нас</h2>
+            <p class="about__title--text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged.
+            </p>
+            <button class="about__btn">
+              <span>Читати</span>
+              <svg width="17" height="8">
+                <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Features section -->
+      <section class="container feature">
+        <h3 class="feature__title">Основні завдання</h3>
+        <div class="feature__block">
+          <div class="feature__block--container">
+            <span class="feature__block--number">1</span>
+            <p class="feature__block--text">
+              Створення комфортних умов та підвищення якості обслуговування клієнтів
+            </p>
+          </div>
+          <div class="feature__block--container">
+            <span class="feature__block--number">2</span>
+            <p class="feature__block--text">
+              Постійно вдосконалювати якість послуг шляхом навчання персоналу, закупівлі нового
+              обладнання та посиленої реклами на ринку
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section class="container project">
+        <h3 class="project__title">Наші проекти</h3>
+        <div class="project__block">
+          <div class="project__text">
+            <div class="project__text--wrap">
+            <h4 class="project__text--item">Центр дозвілля</h4>
+            <button class="project__text--btn">
+              <span>детальніше</span>
+              <svg width="17" height="8">
+                <use href="./assets/icons/symbol-defs.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+
+            </div>
+
+          </div>
+
+          <img src="./assets/images/build2.jpeg" alt="building" width="570px" height="255px" />
+        </div>
+        <div class="project__block">
+          <img src="./assets/images/build3.jpeg" alt="building" width="270px" height="255px" />
+          <img src="./assets/images/build4.jpeg" alt="building" width="470px" height="255px" />
+          <img src="./assets/images/build5.jpeg" alt="building" width="370px" height="255px" />
+        </div>
+      </section>
+
+      <!-- Contact form -->
+    </main>
+    <footer></footer>
+  </body>
 </html>

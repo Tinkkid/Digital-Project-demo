@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'TT Hoves';
     src: 
-        url('../assets/fonts/TTHoves-Regular.woff2') format('woff2'),
-        url('../assets/fonts/TTHoves-Regular.woff') format('woff'),
-        url('../assets/fonts/TTHoves-Regular.ttf') format('truetype');
+        url('./assets/fonts/TTHoves-Regular.woff2') format('woff2'),
+        url('./assets/fonts/TTHoves-Regular.woff') format('woff'),
+        url('./assets/fonts/TTHoves-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
@@ -11,9 +11,9 @@
   @font-face {
     font-family: 'San Francisco Pro';
     src: 
-        url('../assets/fonts/SFProDisplay-Heavy.woff2') format('woff2'),
-        url('../assets/fonts/SFProDisplay-Heavy.woff') format('woff'),
-        url('../assets/fonts/SFProDisplay-Heavy.ttf') format('truetype');
+        url('./assets/fonts/SFProDisplay-Heavy.woff2') format('woff2'),
+        url('./assets/fonts/SFProDisplay-Heavy.woff') format('woff'),
+        url('./assets/fonts/SFProDisplay-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
   }

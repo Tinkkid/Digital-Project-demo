@@ -1,5 +1,13 @@
 @import '~normalize.css';
+@import './style/font';
 @import './style/var';
 @import './style/common';
+@import './style/reset';
 
 @import './style/header';
+@import './style/hero';
+@import './style/about';
+@import './style/features';
+@import './style/projects';
+@import './style/contact-form';
+@import './style/footer';
