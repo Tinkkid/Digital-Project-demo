@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital project</title>
+  <script defer src="main.8e9ac155c2d34b9678f2.js"></script></head>
+  <body>
+    <header class="fixed-header">
+      <div class="container header__container">
+        <div class="logo header-logo">
+          <a href="" class="logo__link">
+            <img src="assets/logo.png" alt="logo" width="69px" height="42px" />
+          </a>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <li><a href="#hero" class="navigation__link">Головна</a></li>
+            <li><a href="#project" class="navigation__link">Галерея</a></li>
+            <li><a href="#project" class="navigation__link">Проекти</a></li>
+            <li><a href="#about" class="navigation__link">Сертифікати</a></li>
+            <li><a href="#contact" class="navigation__link">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+      <!-- Hero section -->
+      <section class="container hero">
+        <div class="hero__container">
+          <h1 class="hero__title" id="hero">
+            <span class="hero__title--first-word">Project</span>
+            <span class="hero__title--second-word">Home</span>
+          </h1>
+          <div class="hero__btn">
+            <button class="btn" type="button">
+              <svg width="17" height="8">
+                <use href="assets/symbol-defs.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button class="btn" type="button">
+              <svg width="17" height="8">
+                <use href="assets/symbol-defs.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img
+            class="hero__img-item"
+            src="assets/hero-main.jpeg"
+            alt="example"
+            width="770px"
+            height="829px"
+          />
+          <button class="view" type="button"></button>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="container">
+        <div class="about" id="about">
+          <div class="about__image">
+            <div class="about__image--right">
+              <img src="assets/img1.jpeg" width="270px" height="265px" alt="" />
+              <img
+                src="assets/img2.jpeg"
+                width="270px"
+                height="140px"
+                alt=""
+                class="right"
+              />
+            </div>
+            <div class="about__image--left">
+              <img src="assets/img3.jpeg" width="270px" height="345px" alt="" />
+            </div>
+          </div>
+          <div class="about__title">
+            <h2 class="about__title--main">Про нас</h2>
+            <p class="about__title--text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged.
+            </p>
+            <button class="about__btn">
+              <span>Читати</span>
+              <svg width="17" height="8">
+                <use href="assets/symbol-defs.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Features section -->
+      <section class="container feature">
+        <h3 class="feature__title">Основні завдання</h3>
+        <div class="feature__block">
+          <div class="feature__block--container">
+            <span class="feature__block--number">1</span>
+            <p class="feature__block--text">
+              Створення комфортних умов та підвищення якості обслуговування клієнтів
+            </p>
+          </div>
+          <div class="feature__block--container">
+            <span class="feature__block--number">2</span>
+            <p class="feature__block--text">
+              Постійно вдосконалювати якість послуг шляхом навчання персоналу, закупівлі нового
+              обладнання та посиленої реклами на ринку
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section class="container project">
+        <h3 class="project__title" id='project'>Наші проекти</h3>
+        <div class="project__block">
+          <div class="project__text">
+            <div class="project__text--wrap">
+              <h4 class="project__text--item">Центр дозвілля</h4>
+              <button class="project__text--btn">
+                <span>детальніше</span>
+                <svg width="17" height="8">
+                  <use href="assets/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <img src="assets/build2.jpeg" alt="building" width="570px" height="255px" />
+        </div>
+        <div class="project__block">
+          <img src="assets/build3.jpeg" alt="building" width="270px" height="255px" />
+          <img src="assets/build4.jpeg" alt="building" width="470px" height="255px" />
+          <img src="assets/build5.jpeg" alt="building" width="370px" height="255px" />
+        </div>
+        <div class="project__btn-wrap">
+          <button class="project__btn-wrap--btn">
+            <span>усі проекти</span>
+            <svg width="17" height="8" fill="white">
+              <use href="assets/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- Contact form -->
+      <section class="container contact-form">
+        <h2 class="contact-form__title" id="contact">Зв'язатися з нами</h2>
+        <div class="contact-form__main">
+          <form class="contact-form__form">
+            <label class="contact-form__label">
+              <input type="text" class="contact-form__input" placeholder="Ім'я" />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="assets/symbol-defs.svg#icon-user"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form__label">
+              <input type="text" class="contact-form__input" placeholder="Номер телефону" />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="assets/symbol-defs.svg#icon-tel"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form__label">
+              <input type="text" class="contact-form__input" placeholder="E-mail" />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="assets/symbol-defs.svg#icon-mail"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form__label">
+              <input
+                type="text"
+                class="contact-form__input"
+                placeholder="Товар/послуга, що цікавить"
+              />
+              <span class="contact-form__icon">
+                <svg width="17" height="17">
+                  <use href="assets/symbol-defs.svg#icon-cart"></use>
+                </svg>
+              </span>
+            </label>
+            <textarea
+              name="message"
+              class="contact-form__message"
+              cols="30"
+              rows="10"
+              placeholder="Повідомлення"
+            ></textarea>
+          </form>
+          <img src="assets/man.jpeg" alt="man with phone" width="750px" height="370px" />
+        </div>
+        <p class="contact-form__text">
+          Надсилаючи заявку, Ви погоджуєтесь з політикою конфіденційності
+        </p>
+        <div class="contact-form__btn-wrap">
+          <button class="contact-form__btn">
+            <span>Надіслати</span>
+            <svg width="17" height="8" fill="white">
+              <use href="assets/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo footer-logo">
+          <a href="" class="logo__link">
+            <img src="assets/logo-footer.png" alt="logo" width="145px" height="94px" />
+          </a>
+        </div>
+        <div class="footer__info">
+          <h4 class="footer__titles">Інформація</h4>
+          <ul class="footer__info--list">
+            <li class="footer__info--list-item footer__text"><a href="#hero">Головна</a></li>
+            <li class="footer__info--list-item footer__text"><a href="#project">Галерея</a></li>
+            <li class="footer__info--list-item footer__text"><a href="#project">Проекти</a></li>
+            <li class="footer__info--list-item footer__text"><a href="#about">Сертифікати</a></li>
+            <li class="footer__info--list-item footer__text"><a href="#contact">Контакти</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4 class="footer__titles">Контакти</h4>
+          <ul class="footer__contact--list">
+            <li class="footer__text">
+              <a
+                href="https://goo.gl/maps/Mb4DiVLQo2YrGgUX9"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer__contact--list-item"
+              >
+                <svg width="16" height="16" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-location"></use></svg
+                >00000, Україна, м.Київ. Хрещатик 1</a
+              >
+            </li>
+            <li class="footer__text">
+              <a
+                href="tel:+380000000000"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer__contact--list-item"
+                ><svg width="16" height="16" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-tel"></use></svg
+                >+38(000)000 00 00</a
+              >
+            </li>
+            <li class="footer__text">
+              <a
+                href="mailto:mail@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer__contact--list-item"
+                ><svg width="16" height="16" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-mail"></use></svg
+                >mail@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <h4 class="footer__titles">Cоціальні мережі</h4>
+          <ul class="footer__social--list">
+            <li class="footer__social--list-item">
+              <a href="https://facebook.com/" class="social-icon" target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="10" height="19" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="footer__social--list-item">
+              <a href="https://twitter.com/" class="social-icon" target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="22" height="17" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="footer__social--list-item">
+              <a href="https://www.linkedin.com/in/yuliia-kostovynska/" class="social-icon" target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="20" height="20" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+            <li class="footer__social--list-item">
+              <a href="https://pinterest.com/" class="social-icon" target="_blank"
+                rel="noopener noreferrer"
+                ><svg width="14" height="19" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-pininterest"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+         <span class="footer__bottom-text">
+            <p> &copy; 2019 Digital Project. Усі права захищені.</p>
+            <a href="https://github.com/Tinkkid" target="_blank"
+                rel="noopener noreferrer"><svg width="14" height="19" class="logo-footer" fill="white">
+                  <use href="assets/symbol-defs.svg#icon-github"></use></svg
+              >Github Yuliia Kostovynska</a>
+         </span>
+      </div>
+    </footer>
+  </body>
+</html>
